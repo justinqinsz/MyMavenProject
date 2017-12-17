@@ -15,13 +15,13 @@ public class App2
         	int b = 0;
         	int c = a / b;
         	System.out.println( "test for artifact direction 1" );
+		} catch (ArithmeticException a) {
+		    
 		}
         catch (Exception a) {
             
         }
-        catch (ArithmeticException a) {
-		    
-		}finally {
+       finally {
 			System.out.println( "test for artifact direction 2" );
 		}
     }
